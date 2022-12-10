@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Freelancer Blog Page" />
+    <meta name="keywords" content="Wordpress, Developer, Freelancer" />
+    <title>Tokyo | Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__left-sidebar">
+        <div class="left-sidebar__logo">tokyo</div>
+        <nav class="left-sidebar__navigation">
+          <a class="left-sidebar__link link" href="#">home</a>
+          <a class="left-sidebar__link link" href="#">about</a>
+          <a class="left-sidebar__link link" href="#">service</a>
+          <a class="left-sidebar__link link" href="#">portfolio</a>
+          <a class="left-sidebar__link link" href="#">news</a>
+          <a class="left-sidebar__link link" href="#">contact</a>
+        </nav>
+        <div class="left-sidebar__footer">
+          <p>© 2022 Tokyo</p>
+          <p>Created by <a class="link" href="#">Marketify</a></p>
+        </div>
+      </div>
+      <div class="container__main-container">
+        <div class="container__topbar">
+          <div class="topbar__item topbar__item--logo"><p>tokyo</p></div>
+          <div class="topbar__item">
+            <div onclick="javascript:hideShow()">
+              <div class="topbar__icon"></div>
+              <div class="topbar__icon"></div>
+              <div class="topbar__icon"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container__content-box">
+          <div class="right-sidebar" id="right-sidebar">
+            <nav class="right-sidebar__right-navigation">
+              <a class="right-sidebar__link" href="#">home</a>
+              <a class="right-sidebar__link" href="#">about</a>
+              <a class="right-sidebar__link" href="#">service</a>
+              <a class="right-sidebar__link" href="#">portfolio</a>
+              <a class="right-sidebar__link" href="#">news</a>
+              <a class="right-sidebar__link" href="#">contact</a>
+            </nav>
+          </div>
+          <div class="content-box__content">
+            <div class="content__img-card">
+              <img
+                class="content__img"
+                src="images/home-img.png"
+                alt="Image Not Found"
+              />
+            </div>
+            <div class="content__info">
+              <div class="content__title">ADRIANO SMITH</div>
+              <div class="content__text">
+                I am a WordPress Developer at heart and create features that are
+                best suited for the job at hand.
+              </div>
+              <div class="content__contacts">
+                <a href="#" class="fab fa-facebook-f contacts__link link"></a>
+                <a href="#" class="fab fa-twitter contacts__link link"></a>
+                <a href="#" class="fab fa-instagram contacts__link link"></a>
+                <a href="#" class="fab fa-linkedin contacts__link link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
